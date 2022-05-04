@@ -33,7 +33,7 @@ commands:
         default: 1.31.0
       gobin:
         type: string
-        default: /go/bin
+        default: $GOHOME/bin
       prefix:
         type: string
         default: v1
